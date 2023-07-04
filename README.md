@@ -45,7 +45,7 @@ Arrow keys and the Tab key are assigned keyboard shortcuts to move blocks within
 - **Left Arrow**: Moves the selected block to the left.
 - **Up Arrow**: Moves the selected block upwards.
 - **Right Arrow**: Moves the selected block to the right.
-- **Down Arrow****: Moves the selected block downwards.
+- **Down Arrow**: Moves the selected block downwards.
 
 These keyboard shortcuts work when a block is selected in the workspace. If the selected block is connected to another block, it will be disconnected first before moving.
 
