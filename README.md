@@ -25,7 +25,7 @@ To use these shortcuts, press and hold the **Shift** key, then press the corresp
 
 ## Loading XML
 
-To load an XML file into the Blockly workspace, perform the following steps:
+To load an XML file into the Blockly workspace, the following steps had to take place before the interaction:
 
 1. Add a button element to the HTML code:
    ```html
@@ -34,7 +34,9 @@ To load an XML file into the Blockly workspace, perform the following steps:
    ```
 2. The button does not have an explicit action associated with it but allows the user to select a file using the file input field.
 
-3. The 'loadXML()' function is called when the Shift + M keyboard shortcut is triggered or when the button is clicked.
+After the interaction was developed, a 'loadXML()' function to perform the above action was created:
+
+1. The 'loadXML()' function is called when the Shift + M keyboard shortcut is triggered or when the button is clicked.
 
 ## Keyboard Shortcuts to Move Blocks
 Arrow keys and the Tab key are assigned keyboard shortcuts to move blocks within the Blockly workspace. The following shortcuts are available:
