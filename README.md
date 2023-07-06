@@ -74,7 +74,7 @@ Arrow keys and the Tab key are assigned keyboard shortcuts to move blocks within
 - **Right Arrow**: Moves the selected block to the right.
 - **Down Arrow**: Moves the selected block downwards.
 
-These keyboard shortcuts work when a block is selected in the workspace. If the selected block is connected to another block, it will be disconnected first before moving. If the selected block has connections, then the block does not move to ensure that the blocks remain in a relative position. Moving 1 block at a time is suggested/
+These keyboard shortcuts work when a block is selected in the workspace.
 
 Here is the code added, again at the JavaScript section of 'index.html':
 ```
@@ -152,3 +152,6 @@ The provided code snippets need to be integrated into the '**index.html**' file 
 ## Notes
 - These interaction techniques were implemented by modifying the '**index.html**' file only.
 - Additional customization or styling can be applied as per your project requirements.
+- For moving blocks:
+      - If the selected block is connected to another block, it will be disconnected first before moving.
+      - If the selected block has connections from it to other blocks, then the block does not move to ensure that the blocks remain in a relative position. Moving one block at a time is suggested
