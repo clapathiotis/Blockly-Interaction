@@ -152,6 +152,4 @@ The provided code snippets need to be integrated into the '**index.html**' file 
 ## Notes
 - These interaction techniques were implemented by modifying the '**index.html**' file only.
 - Additional customization or styling can be applied as per your project requirements.
-- For moving blocks:
-      - If the selected block is connected to another block, it will be disconnected first before moving.
-      - If the selected block has connections from it to other blocks, then the block does not move to ensure that the blocks remain in a relative position. Moving one block at a time is suggested
+- For moving blocks: If the selected block is connected to another block, it will be disconnected first before moving. If the selected block has connections from it to other blocks, then the block does not move to ensure that the blocks remain in a relative position. Moving one block at a time is suggested
